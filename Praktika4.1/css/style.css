@@ -1,94 +1,68 @@
-.header {
-	position: absolute;
-    width: 1400px;
-    height: 60px;
-    left: 20px;
-    top: 20px;
-    background: #000000;
+@import url(reset.css);
+
+.page {
+  font-family: sans-serif;
 }
 
-.headerText {
-	position: absolute;
-    width: 51px;
-    height: 24px;
-    left: 160px;
-    top: 18px;
-    font-family: Helvetica;
-    font-size: 20px;
-    line-height: 23px;
-    color: #FFFFFF;
+a {
+  color: white;
 }
 
-.hr {
-    padding-inline-start: 470px;
+.header, footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
-.inline {
-    display: inline; /* Отображать как строчный элемент */
-    font-family: Helvetica;
-    font-size: 20px;
-    line-height: 23px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    padding-right: 20px;
+.header-container {
+  font-size: 0;
+  width: 800px;
+  margin: auto;
+}
+.logo {
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+}
+.menu {
+  font-size: 16px;
+  display: inline-block;
 }
 
-.rectangle1 {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    left: 182px;
-    top: 145px;
-    background: #000000;
+.menu li {
+  display: inline-block;
+  margin-right: 5px;
 }
 
-.rect1 {
-    width: 52px;
-    height: 30px;
-    font-family: Helvetica;
-    font-size: 20px;
-    line-height: 23px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
+.columns {
+  width: 800px;
+  margin: 50px auto;
+  font-size: 0;
 }
 
-.rectangle2 {
-    position: absolute;
-    width: 850px;
-    height: 300px;
-    left: 492px;
-    top: 145px;
-    border: 3px solid #000000;
-    box-sizing: border-box;
+.left {
+  width: 200px;
+  margin-right: 10px;
+  background-color: black;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+  vertical-align: top;
+}
+.right {
+  width: 590px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
 }
 
-.noList {
-    list-style-type: none;
-    padding-left: 40px;
-    padding-top: 40px;
-    margin-top: 0px;
-}
-
-.rect2 {
-    position: absolute;
-    width: 825px;
-    height: 164px;
-    left: 13px;
-    top: 48px;
-}
-
-.rect2text {
-    font-family: Helvetica;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-
-.botom {
-	position: absolute;
-    width: 1400px;
-    height: 60px;
-    left: 20px;
-    top: 500px;
-    background: #000000;
+.left a {
+  display: block;
+  margin-top: 5px;
 }
