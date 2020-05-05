@@ -12,6 +12,10 @@
     color: #FFFFFF;
 }
 
+.image {
+    display: block;
+}
+
 .linksSection {
     width: 1440px;
     height: 100px;
