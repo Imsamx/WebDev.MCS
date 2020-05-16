@@ -1,89 +1,69 @@
 @import url(reset.css);
 
+* {
+  box-sizing: border-box;
+}
+
 .page {
   font-family: Helvetica;
   width: 1440px;
+  line-height: 23px;
+}
+
+.header, footer {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 0px;
+}
+
+.content {
+  font-size: 0px;
+  margin-left: 20px;
+}
+
+.column {
+  height: 800px;
+  width: 400px;
+  border: 5px solid #E5E000;
+  display: inline-block;
+  margin: 52px 0 52px 50px;
+  border-radius: 30px;
+  padding: 33px;
 }
 
 h1 {
-  display: inline-block;
-  width: 1340px;
+  font-size: 20px
 }
 
 h2 {
   font-size: 20px;
-  line-height: 23px;
   font-weight: bold;
   padding-top: 23px;
   padding-bottom: 41px;
 }
 
-p {
+h3, p {
   font-family: Times New Roman;
   font-size: 20px;
-  line-height: 23px;
 }
 
-.back {
+.white {
   color: white;
   text-decoration: none;
 }
 
-.header, footer {
-  height: 60px;
-  width: 1440px;
-  background-color: red;
-  color: white;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.headerText {
-  font-size: 20px;
-  display: inline-block;
-  width: 820px;
-}
-
-.footerText {
-  font-size: 20px;
+.copy {
   text-transform: uppercase;
+  width: 50%;
   display: inline-block;
+  text-align: left;
+  font-size: 20px;
 }
 
-.content {
-  font-size: 0px;
-}
-
-.left {
-  height: 800px;
-  width: 400px;
-  border: 5px solid #E5E000;
-  box-sizing: border-box;
-  margin: 52px 0px 52px 70px;
+.back {
+  width: 50%;
   display: inline-block;
-  vertical-align: top;
-  border-radius: 30px;
-  padding-left: 33px;
-}
-
-.center {
-  height: 800px;
-  width: 400px;
-  border: 5px solid #E5E000;
-  box-sizing: border-box;
-  display: inline-block;
-  margin: 52px 0 52px 50px;
-  border-radius: 30px;
-  padding-left: 33px;
-}
-
-.right {
-  height: 800px;
-  width: 400px;
-  border: 5px solid #E5E000;
-  box-sizing: border-box;
-  display: inline-block;
-  margin: 52px 0 52px 50px;
-  border-radius: 30px;
-  padding-left: 33px;
+  text-align: right;
+  font-size: 20px;
 }
