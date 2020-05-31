@@ -1,0 +1,142 @@
+@import url(reset.css);
+
+* {
+	font-family: Arial;
+	color: #E50043;
+}
+
+.header {
+	height: 140px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-item.one{
+	font-size: 50px;
+	margin-left: 50px;
+}
+
+.header-item.two{
+	font-size: 50px;
+	display: inline;
+}
+
+.horizont {
+	display: inline;
+	margin: 0 50px;
+}
+
+.heroblock {
+	height: 950px;
+	background-image: url("../img/mount.png");
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.text {
+	margin: auto;
+	font-size: 100px;	
+}
+
+.main1 {
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	padding: 150px 200px;
+}
+
+.ourwater {
+	border: 3px solid #E50043;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 24px;
+	font-size: 25px;
+	line-height: 29px;
+	color: black;
+}
+
+.main2 {
+	height: 970px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bottle1 {
+	height: 863px;
+	width: 280px;
+}
+
+.bottle2 {
+	height: 863px;
+	width: 280px;
+	
+}
+
+.bottle3 {
+	height: 863px;
+	width: 280px;
+}
+
+.title {
+	margin-top: 42px;
+	font-size: 25px;
+    line-height: 29px;
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+.main3 {
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	padding: 150px 200px;
+}
+
+.content {
+	border: 3px solid #E50043;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 24px;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.glass.one {
+	height: 220px;
+	width: 101px;
+	background-image: url("../img/glass.png");
+	margin-right: 80px;
+}
+
+.glass.two {
+	color: black;
+}
+
+.footer {
+	height: 140px;
+	background: #F8BFC7;
+	display: flex;
+	align-items: center;
+}
+
+.footer-item {
+	font-size: 50px;
+	margin-left: 50px;
+	color: white;
+}
