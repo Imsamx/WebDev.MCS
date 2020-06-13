@@ -36,56 +36,43 @@
 	height: 950px;
 	background-image: url("../img/mount.png");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	align-content: space-around;
 }
 
 .text {
-	font-size: 100px;	
+	font-size: 100px;
+	align-self: center;
 }
 
-/*.main1 {
-	height: 580px;
+.content.one {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: nowrap;
-	padding: 150px 200px;
+	align-content: space-around;
 }
 
 .ourwater {
+	display: flex;
 	border: 3px solid #E50043;
 	border-radius: 20px;
 	box-sizing: border-box;
-	padding: 24px;
 	font-size: 25px;
 	line-height: 29px;
 	color: black;
+	padding: 24px;
+	margin: 150px 200px;
+	min-width: 500px;
 }
 
-.main2 {
-	height: 970px;
+.content.two {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
-}
-
-.bottle1 {
-	height: 863px;
-	width: 280px;
-}
-
-.bottle2 {
-	height: 863px;
-	width: 280px;
-	
-}
-
-.bottle3 {
-	height: 863px;
-	width: 280px;
+	flex-wrap: wrap;
 }
 
 .title {
@@ -97,38 +84,33 @@
     display: block;
 }
 
-.main3 {
-	height: 580px;
+
+
+.content.three {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: nowrap;
-	padding: 150px 200px;
+	align-content: space-around;
 }
 
-.content {
+.contain {
+	display: flex;
 	border: 3px solid #E50043;
 	border-radius: 20px;
 	box-sizing: border-box;
-	padding: 24px;
 	font-size: 25px;
 	line-height: 29px;
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
+	padding: 24px;
+	margin: 150px 200px;
+	min-width: 500px;
 	justify-content: space-between;
-
+	align-items: center;
+	align-content: space-between;
 }
 
-.glass.one {
-	height: 220px;
-	width: 101px;
-	background-image: url("../img/glass.png");
-	margin-right: 80px;
-}
-
-.glass.two {
+.electrolytes {
 	color: black;
+	margin-left: 80px;
 }
 
 .footer {
@@ -142,4 +124,4 @@
 	font-size: 50px;
 	margin-left: 50px;
 	color: white;
-}*/
+}
