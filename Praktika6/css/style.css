@@ -46,6 +46,7 @@
 
 .text {
 	font-size: 100px;
+	text-align: center;
 	align-self: center;
 }
 
@@ -77,6 +78,7 @@
 
 .title {
 	margin-top: 42px;
+	margin-bottom: 40px;
 	font-size: 25px;
     line-height: 29px;
     color: black;
@@ -101,7 +103,7 @@
 	font-size: 25px;
 	line-height: 29px;
 	padding: 24px;
-	margin: 150px 200px;
+	margin: 110px 200px 150px;
 	min-width: 500px;
 	justify-content: space-between;
 	align-items: center;
