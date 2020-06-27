@@ -41,13 +41,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	align-content: space-around;
 }
 
 .text {
 	font-size: 100px;
 	text-align: center;
-	align-self: center;
 }
 
 .content.one {
@@ -64,11 +62,16 @@
 	box-sizing: border-box;
 	font-size: 25px;
 	line-height: 29px;
-	color: black;
 	padding: 24px;
 	margin: 150px 200px;
 	min-width: 500px;
 }
+
+.black {
+	color: black;
+}
+
+
 
 .content.two {
 	display: flex;
@@ -92,7 +95,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	align-content: space-around;
+	align-content: space-between;
 }
 
 .contain {

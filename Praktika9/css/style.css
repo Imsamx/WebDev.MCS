@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+.header {
+	height: 100px;
+	width: 100%;
+	background: #0000FF;
+	margin-bottom: 5vh;
+	display: flex;
+}
+
+.white {
+	font-family: Helvetica;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 35px;
+    margin-left: 30px;
+    color: white;
+}
+
+
+.outer {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.box {
+	height: 165px;
+	width: 330px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.text {
+	font-family: Helvetica;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+	height: 100px;
+	width: 100%;
+	background: #0000FF;
+	display: flex;
+}
+
+@media screen and (min-width: 376px) {
+	.outer {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    }
