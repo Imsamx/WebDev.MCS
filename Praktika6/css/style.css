@@ -63,7 +63,8 @@
 	font-size: 25px;
 	line-height: 29px;
 	padding: 24px;
-	margin: 150px 200px;
+	margin: 150px;
+	width: 1040px;
 	min-width: 500px;
 }
 
@@ -71,12 +72,21 @@
 	color: black;
 }
 
-
-
 .content.two {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	
+}
+
+.bottles {
+	display: flex;
+	width: 1040px;
+	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-around;
+
 }
 
 .title {
@@ -88,8 +98,6 @@
     text-align: center;
     display: block;
 }
-
-
 
 .content.three {
 	display: flex;
@@ -106,7 +114,8 @@
 	font-size: 25px;
 	line-height: 29px;
 	padding: 24px;
-	margin: 110px 200px 150px;
+	margin: 110px 0px 150px;
+	width: 1040px;
 	min-width: 500px;
 	justify-content: space-between;
 	align-items: center;
