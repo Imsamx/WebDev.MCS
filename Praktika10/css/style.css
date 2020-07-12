@@ -77,16 +77,52 @@ label {
 	font-size: 20px;
 }
 
+.button {
+	width: 200px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 140px;
+    background-color: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.blue {
+	height: 201px;
+	background: #336FD1;
+	display: flex;
+	justify-content: center;
+}
+
+.delivery {
+font-family: Helvetica;
+font-size: 50px;
+line-height: 57px;
+color: #FEB700;
+margin-top: 30px;
+}
+
+
 
 .footer {
 	height: 140px;
 	background: #F8BFC7;
 	display: flex;
 	align-items: center;
-}
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	}
 
 .footer-item {
-	font-size: 50px;
-	margin-left: 50px;
+	font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
 	color: white;
 }
